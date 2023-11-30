@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando áudio</title>
+</head>
+<body>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audios/guanacast-33.mp3" type="audio/mpeg">
+        <source src="audios/guanacast-33.mp3" type="audio/ogg">
+        <source src="audios/guanacast-33.mp3" type="audio/wav">
+        
+        <p>Seu navegador não suporta áudio <a href="audios/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">Download aqui</a></p>
+    </audio>
+</body>
+</html>
+
+<!--O atributo preload indica se o áudio será pré-carregado ou não e aceita três valores:
+
+    METADATA vai carregar apenas informações sobre o arquivo (tamanho, tempo, informações de direitos, etc)
+    
+    NONE não vai carregar absolutamente nada até que o usuário clique no botão play ou um script inicie a reprodução
+
+    AUTO (padrão) vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play
+-->
+
+<!--
+    O atributo CONTROLS vai apresentar o player na tela. Caso não seja colocado na tag <AUDIO>, o controle será transparente e o usuário não poderá interagir com ele.
+
+    O atributo AUTOPLAY, quando inserido, vai iniciar a reprodução do áudio assim que a página for carregada.
+
+    O atributo LOOP vai fazer com que o áudio seja repetido eternamente assim que terminar a sua reprodução
+-->
