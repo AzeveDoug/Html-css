@@ -77,7 +77,7 @@ section#foto1 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.705);
 }
 
 section#foto2 {
@@ -85,7 +85,7 @@ section#foto2 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.705);
     
 }
 
