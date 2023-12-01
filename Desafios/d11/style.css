@@ -74,7 +74,7 @@ section {
 
 section#foto1 {
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
@@ -82,7 +82,7 @@ section#foto1 {
 
 section#foto2 {
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
